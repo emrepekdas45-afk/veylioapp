@@ -306,3 +306,55 @@ nav a:hover{
 .gallery-grid img:hover{
     transform:translateY(-12px) scale(1.03);
 }
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:#fff;
+    padding:70px 8%;
+    text-align:center;
+}
+
+.footer-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin-bottom:20px;
+}
+
+.footer-logo img{
+    width:42px;
+}
+
+.footer-logo h2{
+    font-size:32px;
+}
+
+footer p{
+    max-width:700px;
+    margin:0 auto 35px;
+    color:#bbb;
+    line-height:1.8;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:35px;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+footer span{
+    color:#777;
+}
